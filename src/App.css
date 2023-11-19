@@ -5,16 +5,15 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: linear-gradient(180deg, #007bff, #0056b3), url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fcomic-background&psig=AOvVaw3OW3dyhlsT5B_E-rBxWHKD&ust=1700506695882000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjk4p7f0IIDFQAAAAAdAAAAABAE'); /* Replace 'your-image-url.jpg' with your image URL */
-  background-size: cover;
-  background-position: center;
+  background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fcomic-background&psig=AOvVaw3OW3dyhlsT5B_E-rBxWHKD&ust=1700506695882000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjk4p7f0IIDFQAAAAAdAAAAABAE') center/cover no-repeat fixed;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent overlay */
   color: #fff;
   display: flex;
   flex-direction: column;
 }
 
 header {
-  background-color: rgba(0, 123, 255, 0.9); /* Adjust the alpha (fourth) value for transparency */
+  background-color: #007bff;
   padding: 15px;
   text-align: center;
   width: 100%;
@@ -37,11 +36,12 @@ textarea {
   width: 100%;
   margin-bottom: 10px;
   padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7); /* Transparent white background for better readability */
 }
 
 button {
   padding: 10px;
-  background-color: rgba(0, 86, 179, 0.9); /* Adjust the alpha (fourth) value for transparency */
+  background-color: #0056b3;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -49,7 +49,7 @@ button {
 }
 
 button:hover {
-  background-color: rgba(0, 64, 128, 0.9); /* Adjust the alpha (fourth) value for transparency */
+  background-color: #004080;
 }
 
 .error-message {
@@ -67,7 +67,7 @@ img {
 footer {
   margin-top: auto;
   padding: 10px;
-  background-color: rgba(0, 64, 128, 0.9); /* Adjust the alpha (fourth) value for transparency */
+  background-color: #004080;
   color: #fff;
   text-align: center;
   width: 100%;
