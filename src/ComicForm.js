@@ -16,7 +16,7 @@ function ComicForm({ generateComic }) {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        Text Input:
+        Type In Your Vision here:
         <textarea value={textInput} onChange={handleInputChange} />
       </label>
       <button type="submit">Generate Comic</button>

@@ -1,0 +1,18 @@
+/* src/ComicDisplay.css */
+
+.comic-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .comic-panel {
+    width: 45%; /* Adjust as needed for spacing */
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
