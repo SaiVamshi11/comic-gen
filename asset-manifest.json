@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c71fd40.css",
-    "main.js": "/static/js/main.f2fe4861.js",
-    "static/js/787.dd137d72.chunk.js": "/static/js/787.dd137d72.chunk.js",
-    "index.html": "/index.html",
-    "main.5c71fd40.css.map": "/static/css/main.5c71fd40.css.map",
-    "main.f2fe4861.js.map": "/static/js/main.f2fe4861.js.map",
-    "787.dd137d72.chunk.js.map": "/static/js/787.dd137d72.chunk.js.map"
+    "main.css": "/comic-gen/static/css/main.3cfa8127.css",
+    "main.js": "/comic-gen/static/js/main.7ae7bd11.js",
+    "static/js/787.dd137d72.chunk.js": "/comic-gen/static/js/787.dd137d72.chunk.js",
+    "index.html": "/comic-gen/index.html",
+    "main.3cfa8127.css.map": "/comic-gen/static/css/main.3cfa8127.css.map",
+    "main.7ae7bd11.js.map": "/comic-gen/static/js/main.7ae7bd11.js.map",
+    "787.dd137d72.chunk.js.map": "/comic-gen/static/js/787.dd137d72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c71fd40.css",
-    "static/js/main.f2fe4861.js"
+    "static/css/main.3cfa8127.css",
+    "static/js/main.7ae7bd11.js"
   ]
 }
